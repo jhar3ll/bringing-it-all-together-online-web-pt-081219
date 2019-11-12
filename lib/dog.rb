@@ -7,5 +7,11 @@ def initialize(name:, breed:, id: nil)
   @id = id
  end 
  
+ def self.create_table
+   sql = <<-SQL
+   CREATE TABLE dogs (
+   id INTEGER PRIMARY KEY)
+   SQL
+ end
 
 end 
