@@ -28,6 +28,6 @@ def initialize(name:, breed:, id: nil)
    else 
      sql = "INSERT INTO dogs (name, breed) VALUES (?, ?)"
      DB[:conn].execute(sql, self.name, self.breed)
-     @id = 
+     @id = DB[:conn].execute("")
 
 end 
