@@ -11,7 +11,7 @@ def initialize(name:, breed:, id: nil)
    sql = <<-SQL
    CREATE TABLE dogs (
    id INTEGER PRIMARY KEY,
-   name TEXT ,
+   name TEXT,
    breed TEXT)
    SQL
  end
