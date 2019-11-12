@@ -86,6 +86,9 @@ def initialize(name:, breed:, id: nil)
    name = ?
    breed = ? 
    WHERE id = ?
+   SQL
+  
+  DB[:conn].execute(sql, self.name, self.breed, self.id)
   end 
     
 end 
