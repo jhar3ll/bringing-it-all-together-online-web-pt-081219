@@ -39,7 +39,7 @@ def initialize(name:, breed:, id: nil)
     return dog
   end 
   
-  def self.new_from_db 
+  def self.
     sql = <<-SQL 
     SELECT *
     FROM dogs 
