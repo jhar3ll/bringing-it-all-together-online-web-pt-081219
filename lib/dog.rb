@@ -47,6 +47,7 @@ def initialize(name:, breed:, id: nil)
     LIMIT 1 
     SQL
     
-    if 
+    dog = DB[:conn].execute(sql, name, breed)
+    
     
 end 
