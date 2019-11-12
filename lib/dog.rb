@@ -75,7 +75,7 @@ def initialize(name:, breed:, id: nil)
   
   def self.find_by_name(name)
     sql = "SELECT * FROM dogs WHERE name = ? LIMIT 1"
-    DB[:conn].execute(name).map do |row|
+    DB[:conn].execute(sql, name).map do |row|
       self.new_from_db(row)
     end.first
   end 
