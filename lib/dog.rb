@@ -49,5 +49,7 @@ def initialize(name:, breed:, id: nil)
     
     dog = DB[:conn].execute(sql, name, breed)
     
+    if 
+    
     
 end 
