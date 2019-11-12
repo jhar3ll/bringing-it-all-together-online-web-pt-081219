@@ -84,7 +84,8 @@ def initialize(name:, breed:, id: nil)
    sql = <<-SQL
    UPDATE dogs SET 
    name = ?
-   
+   breed = ? 
+   WHERE id = ?
   end 
     
 end 
