@@ -58,7 +58,7 @@ def initialize(name:, breed:, id: nil)
     sql = <<-SQL 
     SELECT *
     FROM dogs,
-    WHERE name = ?, breed = ? 
+    WHERE name = ? AND breed = ? 
     LIMIT 1 
     SQL
     
