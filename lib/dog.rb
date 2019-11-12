@@ -40,5 +40,6 @@ def initialize(name:, breed:, id: nil)
   end 
   
   def self.new_from_db 
-    
+    sql = <<-SQL 
+    SELECT *
 end 
