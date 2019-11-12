@@ -47,8 +47,8 @@ def initialize(name:, breed:, id: nil)
   end 
   
   def self.find_by_id(id)
-    sql = <<-SQL
-    SELECT * FROM dogs WHERE id = ? 
+    sql = "SELECT * FROM dogs WHERE id = ? LIMIT 1"
+    
   
   
   
