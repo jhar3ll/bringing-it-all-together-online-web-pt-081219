@@ -38,4 +38,7 @@ def initialize(name:, breed:, id: nil)
     dog.save 
     return dog
   end 
+  
+  def self.new_from_db 
+    
 end 
