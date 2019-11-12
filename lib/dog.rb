@@ -81,7 +81,8 @@ def initialize(name:, breed:, id: nil)
   end 
   
   def update
-     
+   sql = <<-SQL
+   UPDATE 
   end 
     
 end 
