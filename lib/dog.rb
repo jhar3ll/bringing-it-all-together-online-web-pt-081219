@@ -18,7 +18,7 @@ def initialize(name:, breed:, id: nil)
  end
  
  def self.drop_table
-   sql = "DROP TABLE IF EXISTS dogs "
+   sql = "DROP TABLE IF EXISTS dogs"
    DB[:conn].execute(sql)
  end 
  
@@ -27,5 +27,7 @@ def initialize(name:, breed:, id: nil)
      self.update
    else 
      sql = "INSERT INTO dogs (name, breed) VALUES (?, ?)"
+     DB[:conn].execute(sql, self.name, self.breed)
+     @id = 
 
 end 
