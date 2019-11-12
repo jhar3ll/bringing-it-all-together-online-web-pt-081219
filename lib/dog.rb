@@ -16,5 +16,8 @@ def initialize(name:, breed:, id: nil)
    SQL
    DB[:conn].execute(sql)
  end
+ 
+ def self.drop_table
+   sql = "DROP TABLE IF EXISTS dogs "
 
 end 
