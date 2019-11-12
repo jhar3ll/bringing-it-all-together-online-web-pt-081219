@@ -12,7 +12,7 @@ def initialize(name:, breed:, id: nil)
    CREATE TABLE dogs (
    id INTEGER PRIMARY KEY,
    name TEXT ,
-   breed TEXT);
+   breed TEXT)
    SQL
  end
 
