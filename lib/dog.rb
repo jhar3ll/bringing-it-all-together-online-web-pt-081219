@@ -39,7 +39,12 @@ def initialize(name:, breed:, id: nil)
     return dog
   end 
   
-  def self.find_or_create_by(name, breed)
+  def self.new_from_db()
+  
+  
+  
+  
+  def self.find_or_create_by(name:, breed:)
     sql = <<-SQL 
     SELECT *
     FROM dogs 
