@@ -34,5 +34,5 @@ def initialize(name:, breed:, id: nil)
  end
 
   def self.create(name:, breed:)
-    
+    dog = Dog.new(name: = name, breed: = breed)
 end 
