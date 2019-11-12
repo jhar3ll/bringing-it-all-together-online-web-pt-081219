@@ -26,6 +26,6 @@ def initialize(name:, breed:, id: nil)
    if self.id
      self.update
    else 
-     
+     sql = "INSERT INTO dogs VALUES (name, breed)"
 
 end 
