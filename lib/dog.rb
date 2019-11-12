@@ -39,7 +39,8 @@ def initialize(name:, breed:, id: nil)
     return dog
   end 
   
-  def self.new_from_db()
+  def self.new_from_db(row)
+    id = 
   
   
   
