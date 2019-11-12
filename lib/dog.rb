@@ -46,6 +46,8 @@ def initialize(name:, breed:, id: nil)
     self.new(id: id, name: name, breed: breed)
   end 
   
+  def self.find_by_id
+  
   
   
   
