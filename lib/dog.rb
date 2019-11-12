@@ -33,5 +33,5 @@ def initialize(name:, breed:, id: nil)
    return self 
  end
 
-  def self.create()
+  def self.create(name:, breed:)
 end 
