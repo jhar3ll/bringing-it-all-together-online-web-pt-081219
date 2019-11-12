@@ -43,6 +43,6 @@ def initialize(name:, breed:, id: nil)
     sql = <<-SQL 
     SELECT *
     FROM dogs 
-    WHERE name = ?
+    WHERE name = ?, breed = ?
     
 end 
