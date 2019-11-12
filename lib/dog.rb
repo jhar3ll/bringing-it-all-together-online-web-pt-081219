@@ -40,7 +40,10 @@ def initialize(name:, breed:, id: nil)
   end 
   
   def self.new_from_db(row)
-    id = 
+    id = row[0]
+    name = row[1]
+    breed = row[2]
+    
   
   
   
