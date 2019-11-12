@@ -51,7 +51,7 @@ def initialize(name:, breed:, id: nil)
     
     if !dog.empty? 
       dog_data = [0]
-      dog = 
+      dog = Dog.new[]
     
     
 end 
