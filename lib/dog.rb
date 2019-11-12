@@ -42,4 +42,6 @@ def initialize(name:, breed:, id: nil)
   def self.new_from_db 
     sql = <<-SQL 
     SELECT *
+    FROM dogs 
+    WHERE 
 end 
