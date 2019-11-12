@@ -57,7 +57,7 @@ def initialize(name:, breed:, id: nil)
   def self.find_or_create_by(name:, breed:)
     sql = <<-SQL 
     SELECT *
-    FROM dogs,
+    FROM dogs
     WHERE name = ? AND breed = ? 
     LIMIT 1 
     SQL
