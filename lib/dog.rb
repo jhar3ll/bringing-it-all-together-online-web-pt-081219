@@ -14,6 +14,7 @@ def initialize(name:, breed:, id: nil)
    name TEXT,
    breed TEXT)
    SQL
+   DB[:conn].execute(sql)
  end
 
 end 
