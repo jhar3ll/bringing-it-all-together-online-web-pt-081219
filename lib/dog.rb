@@ -73,7 +73,7 @@ def initialize(name:, breed:, id: nil)
     return dog 
   end 
   
-  
+  def self.find_by_name
     
     
 end 
