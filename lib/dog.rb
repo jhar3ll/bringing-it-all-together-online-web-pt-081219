@@ -23,6 +23,9 @@ def initialize(name:, breed:, id: nil)
  end 
  
  def save 
-   if 
+   if self.id
+     self.update
+   else 
+     
 
 end 
