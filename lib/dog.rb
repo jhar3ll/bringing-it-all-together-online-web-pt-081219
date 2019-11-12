@@ -79,6 +79,9 @@ def initialize(name:, breed:, id: nil)
       self.new_from_db(row)
     end.first
   end 
-    
+  
+  def update
+     
+  end 
     
 end 
