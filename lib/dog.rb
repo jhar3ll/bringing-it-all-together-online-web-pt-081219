@@ -50,6 +50,8 @@ def initialize(name:, breed:, id: nil)
     dog = DB[:conn].execute(sql, name, breed)
     
     if !dog.empty? 
+      dog_data = [0]
+      dog = 
     
     
 end 
